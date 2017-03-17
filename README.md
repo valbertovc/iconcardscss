@@ -21,7 +21,58 @@ Para usar como link, use a tag HTML <code>&lt;a href="#" class="icon-card"&gt;&l
   * _Blur_ no cartão
 * Posicionamento
   * Centralizado
-  
+
+### Exemplos
+#### Lista de cartões
+![Veja imagens de exemplos](screenshot/card-list.png)
+```html
+<div class="icon-cards inline">
+    <a class="icon-card">...</a>
+</div>
+```
+#### Tamanhos
+![Veja imagens de exemplos](screenshot/card-size.png)
+```html
+<!-- Uma lista com cartões de tamanhos diferentes -->
+<div class="icon-cards inline">
+    <div class="icon-card">...</div>
+    <div class="icon-card icon-card-2x">...</div>
+    <div class="icon-card icon-card-3x">...</div>
+    <div class="icon-card icon-card-4x">...</div>
+</div>
+
+<!-- Uma lista de cartões com o mesmo tamanho -->
+<div class="icon-cards icon-cards-2x inline">
+    <div class="icon-card">...</div>
+    <div class="icon-card">...</div>
+    <div class="icon-card">...</div>
+    <div class="icon-card">...</div>
+</div>
+```
+#### Formato
+![Veja imagens de exemplos](screenshot/card-format.png)
+```html
+<div class="icon-card">...</div>
+<div class="icon-card rounded">...</div>
+<div class="icon-card circle">...</div>
+```
+#### Sombras
+![Veja imagens de exemplos](screenshot/card-shadow.png)
+```html
+<div class="icon-card">...</div>
+<div class="icon-card rounded">...</div>
+<div class="icon-card circle">...</div>
+```
+#### Centralizado
+![Veja imagens de exemplos](screenshot/card-center.png)
+```html
+<div class="icon-cards">
+    <div class="center">
+        <a class="icon-card">...</a>
+        <p>...</p>
+    </div>
+</div>
+```
 ### Próximos recursos
 * radial-gradient
 * texto ao lado do cartão
