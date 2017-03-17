@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/icon-cards.css">
+    <link rel="stylesheet" href="css/shadows.css">
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse" id="icon-cards-nav">
+    <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#icon-cards">Icon Cards</a>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#icon-cards">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#icon-cards-tamanhos">Tamanhos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#icon-cards-formato">Formatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#icon-cards-sombras">Sombras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#icon-cards-centralizado">Centralizado</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <article data-spy="scroll" data-target="#icon-cards-nav" data-offset="0">
+        <h3 class="page-header" id="icon-cards" data-spy="scroll" data-target="#icon-cards-nav" data-offset="0">
+            Icon Cards
+            <a class="pull-right fa fa-code" data-toggle="collapse" data-target="#icon-cards-code"
+               title="Ver exemplo"></a>
+        </h3>
+        <p>Os Icon Cards tem por objetivo apresentar um cartão ou um conjunto de cartões. Estes cartões podem ter cores,
+            tamanhos e
+            formatos diferentes. Outro ponto importante é que o conteúdo dos cards podem ser letras ou também ícones,
+            como mostram os exemplos abaixo.</p>
+        <p>Os cartões podem ser usados como links <code>&lt;a&gt;</code> ou como blocos <code>&lt;div&gt;</code>. Para
+            usar
+            como link, use a tag HTML <code>&lt;a href="#" class="icon-card"&gt;&lt;/a&gt;</code></p>
+        <div class="col-xs-12">
+            <div class="icon-cards inline">
+                <div class="icon-card" title=".icon-card" data-toggle="tooltip"><i class="fa fa-check"></i></div>
+                <div class="icon-card branco" title=".icon-card .branco" data-toggle="tooltip"><i
+                        class="fa fa-microchip"></i></div>
+                <div class="icon-card azul" title=".icon-card .azul" data-toggle="tooltip">Y</div>
+                <div class="icon-card azul-claro" title=".icon-card .azul-claro" data-toggle="tooltip">A</div>
+                <div class="icon-card azul-escuro" title=".icon-card .azul-escuro" data-toggle="tooltip">E
+                </div>
+                <div class="icon-card azul-petroleo" title=".icon-card .azul-petroleo" data-toggle="tooltip">
+                    X
+                </div>
+                <div class="icon-card azul-turquesa" title=".icon-card .azul-turquesa" data-toggle="tooltip">
+                    M
+                </div>
+                <div class="icon-card azul-profundo" title=".icon-card .azul-profundo" data-toggle="tooltip">
+                    Z
+                </div>
+                <div class="icon-card verde" title=".icon-card .verde" data-toggle="tooltip"><i
+                        class="fa fa-cogs"></i></div>
+                <div class="icon-card verde-claro" title=".icon-card .verde-claro" data-toggle="tooltip"><i
+                        class="fa fa-user-circle-o"></i></div>
+                <div class="icon-card verde-escuro" title=".icon-card .verde-escuro" data-toggle="tooltip"><i
+                        class="fa fa-bolt"></i></div>
+                <div class="icon-card dourado" title=".icon-card .dourado" data-toggle="tooltip"><i
+                        class="fa fa-code"></i></div>
+                <div class="icon-card laranja" title=".icon-card .laranja" data-toggle="tooltip"><i
+                        class="fa fa-comments"></i></div>
+                <div class="icon-card roxo" title=".icon-card .roxo" data-toggle="tooltip"><i
+                        class="fa fa-paw"></i></div>
+                <div class="icon-card marrom" title=".icon-card .marrom" data-toggle="tooltip"><i
+                        class="fa fa-sliders"></i></div>
+                <div class="icon-card marrom-claro" title=".icon-card .marrom-claro" data-toggle="tooltip"><i
+                        class="fa fa-recycle"></i></div>
+                <div class="icon-card bege" title=".icon-card .bege" data-toggle="tooltip"><i
+                        class="fa fa-television"></i></div>
+            </div>
+        </div>
+        <div class="collapse" id="icon-cards-code">
+            <div class="card">
+                <div class="card-header">
+                    Exemplos
+                </div>
+                <div class="card-block">
+            <pre>
+                <code class="code language-html" data-lang="html">
+&lt;a class="icon-card"&gt;&lt;i class="fa fa-check"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="icon-card branco"&gt;&lt;i class="fa fa-microchip"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="icon-card azul"&gt;Y&lt;/a&gt;
+&lt;a class="icon-card azul-claro"&gt;A&lt;/a&gt;
+&lt;a class="icon-card azul-escuro"&gt;E&lt;/a&gt;
+&lt;a class="icon-card azul-petroleo"&gt;X&lt;/a&gt;
+&lt;a class="icon-card azul-turquesa"&gt;M&lt;/a&gt;
+&lt;a class="icon-card azul-profundo"&gt;Z&lt;/a&gt;
+&lt;a class="icon-card verde"&gt;&lt;i class="fa fa-cogs"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="icon-card verde-claro"&gt;&lt;i class="fa fa-user-circle-o"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="icon-card verde-escuro"&gt;&lt;i class="fa fa-bolt"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="icon-card dourado"&gt;&lt;i class="fa fa-code"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="icon-card laranja"&gt;&lt;i class="fa fa-comments"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="icon-card roxo"&gt;&lt;i class="fa fa-paw"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="icon-card marrom"&gt;&lt;i class="fa fa-sliders"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="icon-card marrom-claro"&gt;&lt;i class="fa fa-recycle"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class="icon-card bege"&gt;&lt;i class="fa fa-television"&gt;&lt;/i&gt;&lt;/a&gt;
+                </code>
+            </pre>
+                </div>
+            </div>
+        </div>
+        <h3 class="page-header" id="icon-cards-tamanhos">
+            Icon Cards
+            <small> - Tamanhos</small>
+            <a class="pull-right fa fa-code" data-toggle="collapse" data-target="#icon-cards-tamanhos-code"
+               title="Ver exemplo"></a>
+        </h3>
+
+        <div class="col-xs-12">
+            <div class="icon-cards inline">
+                <div class="icon-card" title=".icon-card" data-toggle="tooltip"><i class="fa fa-check"></i></div>
+                <div class="icon-card branco" title=".icon-card" data-toggle="tooltip"><i
+                        class="fa fa-microchip"></i>
+                </div>
+                <div class="icon-card icon-card-2x azul" title=".icon-card-2x" data-toggle="tooltip">Y</div>
+                <div class="icon-card icon-card-2x verde-claro" title=".icon-card-2x" data-toggle="tooltip"><i
+                        class="fa fa-user-circle-o"></i></div>
+                <div class="icon-card icon-card-3x azul-escuro" title=".icon-card-3x" data-toggle="tooltip">E</div>
+                <div class="icon-card icon-card-3x laranja" title=".icon-card-3x" data-toggle="tooltip"><i
+                        class="fa fa-comments"></i></div>
+                <div class="icon-card icon-card-4x roxo" title=".icon-card-4x" data-toggle="tooltip"><i
+                        class="fa fa-paw"></i></div>
+                <div class="icon-card icon-card-4x marrom" title=".icon-card-4x" data-toggle="tooltip"><i
+                        class="fa fa-sliders"></i></div>
+            </div>
+        </div>
+        <div class="collapse" id="icon-cards-tamanhos-code">
+            <div class="card">
+                <div class="card-header">
+                    Exemplos
+                </div>
+                <div class="card-block">
+            <pre>
+                <code class="code language-html" data-lang="html">
+&lt;!-- Uma lista com cartões de tamanhos diferentes --&gt;
+&lt;div class="icon-cards inline"&gt;
+    &lt;div class="icon-card"&gt;...&lt;/div&gt;
+    &lt;div class="icon-card icon-card-2x"&gt;...&lt;/div&gt;
+    &lt;div class="icon-card icon-card-3x"&gt;...&lt;/div&gt;
+    &lt;div class="icon-card icon-card-4x"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Uma lista de cartões com o mesmo tamanho --&gt;
+&lt;div class="icon-cards icon-cards-2x inline"&gt;
+    &lt;div class="icon-card"&gt;...&lt;/div&gt;
+    &lt;div class="icon-card"&gt;...&lt;/div&gt;
+    &lt;div class="icon-card"&gt;...&lt;/div&gt;
+    &lt;div class="icon-card"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+                </code>
+            </pre>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="page-header" id="icon-cards-formato">
+            Icon Cards
+            <small> - Formatos</small>
+            <a class="pull-right fa fa-code" data-toggle="collapse" data-target="#icon-cards-formato-code"
+               title="Ver exemplo"></a>
+        </h3>
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-4">
+                <h5>Padrão</h5>
+                <div class="icon-cards icon-cards-2x inline">
+                    <div class="icon-card" title=".icon-card" data-toggle="tooltip"><i class="fa fa-check"></i></div>
+                    <div class="icon-card branco" title=".icon-card" data-toggle="tooltip"><i
+                            class="fa fa-microchip"></i>
+                    </div>
+                    <div class="icon-card azul" title=".icon-card" data-toggle="tooltip">Y</div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <h5>Arredondado</h5>
+                <div class="icon-cards icon-cards-2x inline">
+                    <div class="icon-card azul-claro rounded" title=".icon-card .rounded" data-toggle="tooltip">A
+                    </div>
+                    <div class="icon-card azul-escuro rounded" title=".icon-card .rounded" data-toggle="tooltip">E
+                    </div>
+                    <div class="icon-card azul-petroleo rounded" title=".icon-card .rounded" data-toggle="tooltip">X
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <h5>Circular</h5>
+                <div class="icon-cards icon-cards-2x inline">
+                    <div class="icon-card azul-turquesa circle" title=".icon-card .circle" data-toggle="tooltip">M
+                    </div>
+                    <div class="icon-card azul-profundo circle" title=".icon-card .circle" data-toggle="tooltip">Z
+                    </div>
+                    <div class="icon-card verde-claro circle" title=".icon-card .circle" data-toggle="tooltip"><i
+                            class="fa fa-user-circle-o"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="icon-cards-formato-code">
+            <div class="card">
+                <div class="card-header">
+                    Exemplos
+                </div>
+                <div class="card-block">
+            <pre>
+                <code class="code language-html" data-lang="html">
+&lt;div class="icon-card"&gt;...&lt;/div&gt;
+&lt;div class="icon-card rounded"&gt;...&lt;/div&gt;
+&lt;div class="icon-card circle"&gt;...&lt;/div&gt;
+                </code>
+            </pre>
+                </div>
+            </div>
+        </div>
+        <h3 class="page-header" id="icon-cards-sombras">
+            Icon Cards
+            <small> - Sombras</small>
+            <a class="pull-right fa fa-code" data-toggle="collapse" data-target="#icon-cards-sombras-code"
+               title="Ver exemplo"></a>
+        </h3>
+        <p>Para usar os cartões com sombra no texto (text-shadow) é necessário declarar a cor do cartão ao mesmo tempo (
+            exemplo: <code>class="icon-card branco text-shadow"</code>).
+            Nos demais tipos de sombra não há dependência com a cor do cartão, pois são todas variações do preto.</p>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <h5>Sombra no texto</h5>
+                <div class="icon-cards icon-cards-2x inline">
+                    <div class="icon-card branco text-shadow" title=".icon-card .branco .text-shadow"
+                         data-toggle="tooltip"><i class="fa fa-check"></i></div>
+                    <div class="icon-card marrom text-shadow" title=".icon-card .marrom .text-shadow"
+                         data-toggle="tooltip">Y
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <h5>Sombra no cartão</h5>
+                <div class="icon-cards icon-cards-2x inline">
+                    <div class="icon-card laranja shadow" title=".icon-card .shadow" data-toggle="tooltip">A</div>
+                    <div class="icon-card azul-escuro circle shadow" title=".icon-card .shadow"
+                         data-toggle="tooltip">E
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <h5>Blur no texto</h5>
+                <div class="icon-cards icon-cards-2x inline">
+                    <div class="icon-card branco text-blur" title=".icon-card .text-blur" data-toggle="tooltip">Z
+                    </div>
+                    <div class="icon-card roxo text-blur" title=".icon-card .text-blur" data-toggle="tooltip"><i
+                            class="fa fa-user-circle-o"></i></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+                <h5>Blur no cartão</h5>
+                <div class="icon-cards icon-cards-2x inline">
+                    <div class="icon-card icon-card-4x verde-escuro blur" title=".icon-card .blur"
+                         data-toggle="tooltip">
+                        <i
+                                class="fa fa-paw"></i></div>
+                    <div class="icon-card icon-card-4x marrom circle blur" title=".icon-card .blur"
+                         data-toggle="tooltip"><i
+                            class="fa fa-sliders"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="icon-cards-sombras-code">
+            <div class="card">
+                <div class="card-header">
+                    Exemplos
+                </div>
+                <div class="card-block">
+            <pre>
+                <code class="code language-html" data-lang="html">
+&lt;div class="icon-card branco text-shadow"&gt;...&lt;/div&gt;
+&lt;div class="icon-card shadow"&gt;...&lt;/div&gt;
+&lt;div class="icon-card text-blur"&gt;...&lt;/div&gt;
+&lt;div class="icon-card blur"&gt;...&lt;/div&gt;
+                </code>
+            </pre>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="page-header" id="icon-cards-centralizado">
+            Icon Cards
+            <small> - Centralizado</small>
+            <a class="pull-right fa fa-code" data-toggle="collapse" data-target="#icon-cards-centralizado-code"
+               title="Ver exemplo"></a>
+        </h3>
+
+        <div class="row">
+            <div class="col">
+                <div class="icon-cards icon-cards-2x">
+                    <div class="icon-cards-center">
+                        <a class="icon-card circle azul-claro text-shadow"><i class="fa fa-user-circle-o"></i></a>
+                        <p>Label do card</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="icon-cards icon-cards-2x">
+                    <div class="icon-cards-center">
+                        <a class="icon-card circle bege text-shadow"><i class="fa fa-recycle icon"></i></a>
+                        <p>Label do card</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="icon-cards icon-cards-2x">
+                    <div class="icon-cards-center">
+                        <a class="icon-card circle verde-escuro text-shadow"><i
+                                class="fa fa-television icon"></i></a>
+                        <p>Label do card</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="icon-cards-centralizado-code">
+            <div class="card">
+                <div class="card-header">
+                    Exemplos
+                </div>
+                <div class="card-block">
+            <pre>
+                <code class="code language-html" data-lang="html">
+&lt;div class="icon-cards"&gt;
+    &lt;div class="center"&gt;
+        &lt;a class="icon-card circle azul-claro text-shadow"&gt;&lt;i class="fa fa-user-circle-o"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;p&gt;...&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                </code>
+            </pre>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <hr>
+        <p>© valberto.com 2017</p>
+      </footer>
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+<script>
+    $('[data-toggle="popover"]').popover();
+    $('[data-toggle="tooltip"]').tooltip();
+
+    hljs.initHighlightingOnLoad();
+
+    $('.code').each(function (i, block) {
+        hljs.configure({tabReplace: '   '}, {useBR: true});
+        hljs.highlightBlock(block);
+    });
+</script>
+</body>
+</html>

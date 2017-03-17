@@ -1,0 +1,125 @@
+/* http://learn.shayhowe.com/advanced-html-css/detailed-css-positioning/ */
+
+/*
+ * Próximos recursos
+ * - radial-gradient
+ * - texto ao lado do cartão
+ * - bordas para os cartões
+ * - tipos de margem: fina, média ou grossa
+ */
+
+/* WRAPPER */
+
+.icon-cards {
+    overflow: auto;
+}
+
+/* CARD */
+
+.icon-card {
+    background: #A9B0BA;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    overflow: hidden;
+    display: table;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.icon-card i {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+.icon-card.branco i {
+    color: #333;
+}
+
+/* POSITIONING */
+
+.icon-cards.inline .icon-card {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.icon-cards.inline .icon-card:first-of-type {
+    margin-left: 0;
+}
+
+.icon-cards.inline .icon-card:last-of-type {
+    margin-right: 0;
+}
+
+/* LIGNMENT */
+
+.icon-cards-center {
+    text-align: center;
+}
+
+.icon-cards-center .icon-card {
+    margin: 0 auto;
+}
+
+/* FORMAT */
+
+.icon-card.rounded {
+    border-radius: 5%;
+}
+
+.icon-card.circle {
+    border-radius: 50%;
+}
+
+.icon-card-bordered {
+    border: solid 1px #777;
+}
+
+/* SIZE */
+
+.icon-card-2x {
+    font-size: 2.4em;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+}
+
+.icon-card-3x {
+    font-size: 3.4em;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+}
+
+.icon-card-4x {
+    font-size: 4.6em;
+    height: 130px;
+    width: 130px;
+    line-height: 130px;
+}
+
+.icon-cards-2x .icon-card {
+    font-size: 2.4em;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+}
+
+.icon-cards-3x .icon-card {
+    font-size: 3.4em;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+}
+
+.icon-cards-4x .icon-card {
+    font-size: 4.6em;
+    height: 130px;
+    width: 130px;
+    line-height: 130px;
+}
